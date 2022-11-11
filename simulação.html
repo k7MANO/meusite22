@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora investimento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="top" class="top">
+        <h1>Calculadora de investimentos</h1>
+    </div>
+    <div id="mid" class="mid">
+        <p class="textos"> Capital inicial</p><input type="number" id="capital" class="inputs" min="0"><br>
+        <p class="textos"> Tempo de investimento</p><input type="number" id="tempo" class="inputs" min="0"><br>
+        <p class="textos"> Acrescimo de dinheiro ao longo do tempo</p><input type="number" id="acrescimo" class="inputs" min="0"><br>
+        <p class="textos"> Taxa do investimento </p><input type="number" id="taxa" class="inputs"></p>
+        <input type="button" value="calcular meu investimento" id="btnCalc" class="btns">
+    </div>
+    <div id="explaining">
+        <p>A simulação de investimentos, tem o principal objetivo de demonstrar os resultados de um investimento
+            de maneira gratuta e fiel a realidade, de maneira simples e mais acessível. Você pode ver diversos tipos
+            de investimento neste site, como CDI, Tesouro direto entre outros, fique a vontade para fazer mais simulações no site
+        </p>
+    </div>
+    <div id="tiposDeInvestAtual" class="typeinvest"><h3>Tipo de investimento atual:</h3>
+        <br><p>Simulação</p>
+    </div>
+    <div id="Outros tipos de invest" class="outros_invest">
+        <h4>Outros tipos de investimento:</h4>
+        <p><br><a href="">Tesouro direto</a>
+           <br><a href="cripto.html">Criptomoedas</a>
+           <br><a href="investimento_fi.html">Fundo imobiliário</a>
+           <br> <a href="cdi.html">CDI</a>
+
+        </p>
+    </div>
+    
+    <script src="paginainicial.js"></script>
+</body>
+</html>

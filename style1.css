@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://media-blog.genialinvestimentos.com.br/wp-content/uploads/2020/12/15110257/background-default-web.jpg");
+}
+
+#titulo {
+    
+background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    position: relative;
+    margin: auto;
+    padding: 0.4vh;
+        
+}
+
+.resultados {
+    font-size: 1.2rem;
+    position: relative;
+    margin: 0%;
+    display: inline-block;
+    padding: 0.5% 1% 0%;
+    text-align: center;
+    width: 15%;
+    height: 8vh;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+#totalInvestido {
+    background-color: rgb(71, 76, 244);
+    margin-left: 25%;
+}
+
+
+#totalRecebido {
+    background-color: rgb(24, 248, 248);
+    
+}
+
+#jurosTotais {
+    background-color: rgb(44, 250, 85);
+}
+
+.btns{
+    background-color: #f77859; /* Green */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    margin: 21% 0% 0% -35%;
+}

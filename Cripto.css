@@ -1,0 +1,154 @@
+.top {
+    background-color: rgb(23, 21, 21);
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    position: relative;
+    margin: auto;
+    padding: 0.2vh;
+    }
+    body {
+        background-image: url("https://media-blog.genialinvestimentos.com.br/wp-content/uploads/2020/12/15110257/background-default-web.jpg");
+    }
+     .mid {
+        background-color: rgb(169, 169, 169);
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+        width: 40%;
+        position: relative;
+        margin: auto;
+        padding: 0px 0% 0% 0%;
+     }
+     .inputs {
+        border-radius: 15px;
+        background-color: gray;
+        color: white;
+     }
+     .textos {
+        font-size: 1.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .btns {
+        background-color: #4be350; /* Green */
+        border: none;
+        border-radius: 10px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+     }
+    
+     .tipsgod {
+        background-color: rgb(8, 191, 8);
+        position: fixed;
+        margin: -35% 0% 0% 0%;
+        border-radius: 15px;
+        padding: 1vh;
+        width: 22.5%;
+     }
+     .tipsgod > p {
+        font-size: 0.9rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: -10% 0% 0% 0%;
+    }
+    .tipsgod > h3 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+     
+     .tipsbad {
+        background-color: rgb(202, 14, 14);
+        width: 22.5%;
+        position: fixed;
+        margin: -20% 10% 0% 0%;
+        border-radius: 15px;
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 1vh;
+     }
+    .tipsbad > h3 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .tipsbad > p {
+        font-size: 0.9rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: -9% 0% 0% 0%;
+        
+    }
+    
+     .typeinvest {
+        background-color: rgb(6, 61, 243);
+        position: fixed;
+        margin: -35% -30% 0% 80%;
+        border-radius: 15px;
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+     }
+     .typeinvest > h3 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .typeinvest > p {
+        font-size: 1.1rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: -10% 0% 0% 0%;
+        padding: 1vh;
+    }
+    .outros_invest {
+        background-color: rgb(88, 141, 255);
+        position: fixed;
+        margin: -20% -30% 0% 80%;
+        border-radius: 15px;
+        font-size: 1.0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 1vh;
+    }
+    .outros_invest > p {
+        font-size: 1.1rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: -10% 0% 0% 0%;
+        text-decoration: none;
+    }
+    .outros_invest h3 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #explaining {
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        position: fixed;
+        margin: -30% 10% 0% 3%;
+        border-radius: 15px;
+        font-size: 1.1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 0.8vh;
+        border-style: double;
+    }
+
+    #criptoValor {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #criptoValor > img {
+        position: absolute;
+        margin: 0% 0% 0% -11%;
+        width: 7.5%;
+        height: 7.5%;
+    }
